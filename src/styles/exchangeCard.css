@@ -1,0 +1,40 @@
+.exchangeCard{
+    border: 2px solid #203864;
+    width: 200px;
+    height: 250px;
+    position: relative;
+}
+.exchangeCard-logo{
+    width: 30px;
+    filter: drop-shadow(0 0 3px white)drop-shadow(0 0 3px white)drop-shadow(0 0 3px white);
+}
+.exchangeCard-message{
+    color:#203864;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+}
+.exchangeCard-name-container{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    padding: 8px 0;
+    background-color: #203864;
+    color: white;
+}
+.exchangeCard-value{
+    position: absolute;
+    top: 33%;
+    width: 100%;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 500;
+    color:#203864;
+}

@@ -1,0 +1,14 @@
+#topMenu{
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: -8px;
+    border: 1px solid transparent;
+}
+.nav-link{
+    color: white !important;
+    cursor: pointer;
+}
+.active{
+    color: #203864 !important;
+}
