@@ -2,6 +2,7 @@ import "../styles/exchangeCard.css";
 import dolartodaylogo from "../svg/dolartodaylogo.svg";
 import dolarBill from "../svg/dollarBill.svg";
 import cucuta from "../svg/cucuta.svg";
+import BCV from "../svg/bcvLogo.svg"
 
 export function ExchangeCard({ data }) {
     let { rate, name, icon } = data;
@@ -24,6 +25,8 @@ function getIcon(icon) {
             return dolartodaylogo
         case "CCT":
             return cucuta
+        case "BCV":
+            return BCV
         default:
             return dolarBill
     }

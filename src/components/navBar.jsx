@@ -5,7 +5,9 @@ import {UserMenu} from "./UserMenu";
 
 import "../styles/navBar.css";
 
+
 export function NavBar() {
+
 
     let navBarStyle = {backgroundColor: "#203864"};
 
@@ -18,4 +20,6 @@ export function NavBar() {
         </nav>
 
     </>
+    
 }
+

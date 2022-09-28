@@ -1,4 +1,4 @@
-import victorypayLogo from '../victorypayLogo.png';
+import victorypayLogo from '../victorypayLogo.svg';
 import "../styles/logo.css";
 
 export function Logo(){
