@@ -1,10 +1,10 @@
-import {NavBar} from "./components/navBar";
-import {OptionsContainer} from "./components/OptionsContainer";
+import { NavBar } from "./components/navBar";
+import { OptionsContainer } from "./components/OptionsContainer";
 
 function App() {
   return (<>
-    <NavBar/>
-     <OptionsContainer/>
+    <NavBar />
+    <OptionsContainer />
   </>
   )
 }

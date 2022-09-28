@@ -4,9 +4,6 @@ import { useContext } from "react";
 import { OptionsContainerContext } from "../context/OptionsContainerContext"
 import "../styles/topMenu.css";
 
-//import { MdOutlinePayments } from "react-icons/md";
-
-
 
 export function TopMenu() {
 
@@ -30,10 +27,12 @@ export function TopMenu() {
             tab.classList.remove("active");
         }
         e.target.classList.add("active");
+        document.getElementById("menu-toggle").checked = false
     }
     //flex-column
     if (screenWidth >= 1024) {
         return <>
+    
             <ul className="nav nav-tabs" id="topMenu" onClick={setTab}>
                 <li className="nav-item">
                     <div className="nav-link active" id="tab1">Pagos</div>
@@ -54,7 +53,6 @@ export function TopMenu() {
         </>
     } else {
         return <div id="menu-mobil-container">
-
             <input id="menu-toggle" type="checkbox" />
             <label className='menu-button-container' htmlFor="menu-toggle">
                 <div className='menu-button'></div>
@@ -77,6 +75,7 @@ export function TopMenu() {
                 </li>
             </ul>
         </div>
+
     }
 }
 

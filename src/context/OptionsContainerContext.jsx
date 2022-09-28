@@ -2,6 +2,8 @@ import React, { useState, useEffect ,createContext} from "react";
 
 
 export const OptionsContainerContext = createContext();
+
+
 const refreshExchangeTimer = 600000
 export function OptionsContainerContextProvider({children}){
     const [activeTab, setActiveTab] = useState("1");
@@ -17,6 +19,7 @@ export function OptionsContainerContextProvider({children}){
                 console.log("No se ha podido conectar al api de Dollartoday")
             }
            // console.log("Actualzando tasas de cambio")
+  
         }
         fetchData();
         setInterval(() => {
